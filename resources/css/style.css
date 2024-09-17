@@ -303,6 +303,7 @@ header .mobile {
 
 #filters-section .content {
   padding: 0 .625rem;
+  margin-top: 4rem;
   margin-bottom: 5rem;
 }
 
@@ -320,8 +321,17 @@ header .mobile {
 }
 
 #filters-section .images-container {
-  max-width: 100%;
+  display: flex;
+  width: 98%;
+  overflow: hidden;
   padding: 0 1%;
+}
+
+#filters-section .images-container img {
+  display: inline-block;
+  overflow: hidden;
+  width: 100%;
+  height: auto;
 }
 
 @media only screen and (max-width: 760px) {
